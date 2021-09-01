@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style> 
+      *{
+          box-sizing: border-box;
+      }
+      body{
+       background-color: #007fff;
+      }
+      h1{
+          color: white;
+          text-align: center;
+      }
+      a{ 
+          position: absolute;
+          top: 10px;
+          right: 100px;
+          text-decoration: none;
+          margin: auto;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          border-radius: 5px;
+          color: white;
+          background-color: #007fff;
+      }
+      a:hover{
+          color: blue
+      }
+      #grupo{
+          background-color: white;
+          padding-top: 20px;
+          border: 1px solid;
+          border-radius: 10px;
+          width: 300px;
+          height: 200px;
+          margin: auto;
+      }
+      input{
+          border-color: #007fff;
+          border-radius: 10px;
+          margin-top: 15px;
+          margin-left: 10px;
+      }
+      label{
+          font-size: 18px;
+          margin-left: 10px;
+      }
+      .buttom{
+          cursor: pointer;
+          font-family: fantasy;
+          color: white;
+          background-color:#007fff ;
+          margin-top: 25px;
+          margin-left: 100px;
+          width: 70px;
+      }
+    </style>
+</head>
+<body>
+    <h1>Faça o Login</h1>
+<a href="cadastro.html">Formulario</a>
+ <form action="" method="POST" id="grupo">
+    <div class="from-grupo">
+        <label>Nome</label>
+        <input type="text" required/>
+    </div>
+    <div class="from-grupo" >
+        <label>Senha</label>
+        <input type="password" required/>
+    </div>
+    <div class="from-grupo">
+        <label>Email</label>
+        <input type="email" required/>
+    </div>
+ <div>
+    <input class="buttom" type="submit" value="Entrar">
+ </div>
+ 
+
+</form>
+</body>
+</html>

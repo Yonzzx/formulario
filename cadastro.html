@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <title>Cadastro </title>
+</head>
+<body>
+  <h1>Cadastre-se</h1>
+  <div>
+    <a href="login.html">Login</a>
+  </div>
+
+    <div class="box">
+        <form action="" method="POST" class="fm">
+          <h2>Formulario</h2>  
+          <div class="grupo">
+              <label>Nome</label>
+              <input type="text" required/>
+            </div>
+            
+            <div class="grupo">
+              <label>Senha</label>
+              <input type="password" required/>
+            </div>
+
+             <div class="grupo">
+               <label>Email</label>
+               <input type="email" required/>
+             </div>
+              <p class="text">Selecione sua Área</p>
+             <div class="grupo">
+              <labeL>FRONT-END</labeL>
+                <input type="radio" name="pr"/>
+              <labeL>BACK-END</labeL>
+                <input type="radio" name="pr"/>
+             </div>
+             
+             <p class="text">Profissional</p>
+             <div class="grupo">
+             <select name="sel" id="for">
+              <option>Selecione</option>
+              <option>Junior</option>
+              <option>Pleno</option>
+              <option>Senior</option>
+             </select>
+             </div>
+             <div>
+                   <input class="button" type="submit"/>    
+             </div>
+    </form>
+</body>
+</html>
